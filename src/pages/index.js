@@ -84,13 +84,10 @@ const IndexPage = () => (
     </div>
     <ul className={styles.list}>
       {links.map(link => (
-        <li key={link.url} className={styles.listItem}>
-          <a
-            className={styles.listItemLink}
-            href={`${link.url}${utmParameters}`}
-          >
+        <li className={styles.listItem}>
+          
             {link.text} ↗
-          </a>
+          
           <p className={styles.listItemDescription}>{link.description}</p>
         </li>
       ))}
