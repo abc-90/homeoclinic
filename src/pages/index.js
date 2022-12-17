@@ -69,7 +69,7 @@ const IndexPage = () => (
       <StaticImage
         src="../images/best-homeopathic-doctor-in-ghaziabad.jpg"
         loading="eager"
-        width={64}
+        width={124}
         quality={95}
         formats={["auto", "webp", "avif"]}
         alt=""
@@ -95,12 +95,6 @@ const IndexPage = () => (
         </li>
       ))}
     </ul>
-    {moreLinks.map((link, i) => (
-      <React.Fragment key={link.url}>
-        <a href={`${link.url}${utmParameters}`}>{link.text}</a>
-        {i !== moreLinks.length - 1 && <> · </>}
-      </React.Fragment>
-    ))}
   </Layout>
 )
 
