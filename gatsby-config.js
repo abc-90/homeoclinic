@@ -12,7 +12,7 @@ module.exports = {
     title: `Dr. Vikram Singh`,
     description: `Find best homeopathic doctor in Siddharth Vihar, Ghaziabad near you..`,
     author: `@drvikramsingh`,
-    siteUrl: `/`,
+    siteUrl: `https://homeoclinic.gatsbyjs.io/`,
   },
   plugins: [
     `gatsby-plugin-image`,
