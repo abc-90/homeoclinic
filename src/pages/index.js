@@ -8,29 +8,23 @@ import * as styles from "../components/index.module.css"
 
 const links = [
   {
-    text: "Tutorial",
+    text: "Safe and Effective Treatment",
     url: "https://www.gatsbyjs.com/docs/tutorial",
     description:
-      "A great place to get started if you're new to web development. Designed to guide you through setting up your first Gatsby site.",
+      "Homeopathic treatment is completely safe and has no side effects. It is proven to be very effective in acute as well as chronic cases.",
   },
   {
-    text: "Examples",
+    text: "Vast Experience of Specialist Doctor",
     url: "https://github.com/gatsbyjs/gatsby/tree/master/examples",
     description:
-      "A collection of websites ranging from very basic to complex/complete that illustrate how to accomplish specific tasks within your Gatsby sites.",
+      "Dr. Vikram Singh has over 40 years of experience in homeopathy and has thousands of successful stories with variety of medical situations.",
   },
   {
-    text: "Plugin Library",
+    text: "Best Homeopathic Doctor in Siddharth Vihar, Ghaziabad",
     url: "https://www.gatsbyjs.com/plugins",
     description:
-      "Learn how to add functionality and customize your Gatsby site or app with thousands of plugins built by our amazing developer community.",
-  },
-  {
-    text: "Build and Host",
-    url: "https://www.gatsbyjs.com/cloud",
-    description:
-      "Now you’re ready to show the world! Give your Gatsby site superpowers: Build and host on Gatsby Cloud. Get started for free!",
-  },
+      "Get the best for your health from the best doctor in your area.",
+  }
 ]
 
 const samplePageLinks = [
