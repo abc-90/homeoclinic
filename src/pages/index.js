@@ -67,7 +67,7 @@ const IndexPage = () => (
   <Layout>
     <div className={styles.textCenter}>
       <StaticImage
-        src="../images/example.png"
+        src="../images/best-homeopathic-doctor-in-ghaziabad.jpg"
         loading="eager"
         width={64}
         quality={95}
